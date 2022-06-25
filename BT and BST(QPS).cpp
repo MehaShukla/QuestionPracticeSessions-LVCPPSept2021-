@@ -237,7 +237,7 @@ int main(){
 	cout<<v[m-k];
 
 }
-//Root to Leaf
+//Root to Leaf if sum equal to k print path
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -300,7 +300,7 @@ int main(){
 	roottoleafsum(head,k,0);
 }
 
-//replace with sum
+//replace each node with sum of all greater 
 #include<iostream>
 using namespace std;
 class node{
